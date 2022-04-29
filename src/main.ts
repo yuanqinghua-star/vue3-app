@@ -26,7 +26,13 @@ import {
 } from "element-plus";
 import "element-plus/dist/index.css";
 
+import '@/icons'  // 导入图标资源
+import SvgIcon from '@/components/SvgIcon/index.vue'// svg component
+
+
 let app = createApp(App);
+app
+  .component('svg-icon', SvgIcon)
 app
   .use(ElContainer)
   .use(ElHeader)
