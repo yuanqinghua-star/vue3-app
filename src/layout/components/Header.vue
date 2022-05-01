@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <header class="header">
     <div class="title">智慧校园选课系统</div>
     <div class="user-info">
       <el-dropdown @command="handleCommand" ref="dropdownRef">
@@ -15,7 +15,7 @@
         </template>
       </el-dropdown>
     </div>
-  </div>
+  </header>
 </template>
 
 <script lang="ts">
